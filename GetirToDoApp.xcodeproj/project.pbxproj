@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		07FF5D0423252EC2004F7CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D0323252EC2004F7CB1 /* AppDelegate.swift */; };
 		07FF5D0723252EC2004F7CB1 /* GetirToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D0523252EC2004F7CB1 /* GetirToDoApp.xcdatamodeld */; };
-		07FF5D0923252EC2004F7CB1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D0823252EC2004F7CB1 /* MasterViewController.swift */; };
-		07FF5D0B23252EC2004F7CB1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D0A23252EC2004F7CB1 /* DetailViewController.swift */; };
 		07FF5D0E23252EC2004F7CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FF5D0C23252EC2004F7CB1 /* Main.storyboard */; };
 		07FF5D1023252EC4004F7CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FF5D0F23252EC4004F7CB1 /* Assets.xcassets */; };
 		07FF5D1323252EC4004F7CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FF5D1123252EC4004F7CB1 /* LaunchScreen.storyboard */; };
 		07FF5D1E23252EC4004F7CB1 /* GetirToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D1D23252EC4004F7CB1 /* GetirToDoAppTests.swift */; };
 		07FF5D2923252EC4004F7CB1 /* GetirToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D2823252EC4004F7CB1 /* GetirToDoAppUITests.swift */; };
+		07FF5D39232534CC004F7CB1 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D38232534CC004F7CB1 /* ItemListViewController.swift */; };
+		07FF5D3B232534E0004F7CB1 /* ItemListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D3A232534E0004F7CB1 /* ItemListInteractor.swift */; };
+		07FF5D3D232534ED004F7CB1 /* ItemListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D3C232534ED004F7CB1 /* ItemListCoordinator.swift */; };
+		07FF5D402325375D004F7CB1 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D3F2325375D004F7CB1 /* BaseInteractor.swift */; };
+		07FF5D4723253A9F004F7CB1 /* Any+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D4623253A9F004F7CB1 /* Any+Utilities.swift */; };
+		07FF5D4A23253BB8004F7CB1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D4923253BB8004F7CB1 /* DataManager.swift */; };
+		07FF5D4D23254389004F7CB1 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D4C23254389004F7CB1 /* ItemViewModel.swift */; };
+		07FF5D4F23254CC7004F7CB1 /* Date+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D4E23254CC7004F7CB1 /* Date+Utilities.swift */; };
+		07FF5D5123254FDB004F7CB1 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D5023254FDB004F7CB1 /* String+Utilities.swift */; };
+		07FF5D5323255792004F7CB1 /* Array+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D5223255792004F7CB1 /* Array+Utilities.swift */; };
+		07FF5D5723255A8D004F7CB1 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D5623255A8D004F7CB1 /* ItemDetailViewController.swift */; };
+		07FF5D5923255AC7004F7CB1 /* ItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D5823255AC7004F7CB1 /* ItemDetailInteractor.swift */; };
+		07FF5D5B23255AD0004F7CB1 /* ItemDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF5D5A23255AD0004F7CB1 /* ItemDetailCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,6 @@
 		07FF5D0023252EC2004F7CB1 /* GetirToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetirToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FF5D0323252EC2004F7CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FF5D0623252EC2004F7CB1 /* GetirToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GetirToDoApp.xcdatamodel; sourceTree = "<group>"; };
-		07FF5D0823252EC2004F7CB1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		07FF5D0A23252EC2004F7CB1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		07FF5D0D23252EC2004F7CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07FF5D0F23252EC4004F7CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FF5D1223252EC4004F7CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		07FF5D2423252EC4004F7CB1 /* GetirToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetirToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FF5D2823252EC4004F7CB1 /* GetirToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirToDoAppUITests.swift; sourceTree = "<group>"; };
 		07FF5D2A23252EC4004F7CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FF5D38232534CC004F7CB1 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		07FF5D3A232534E0004F7CB1 /* ItemListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListInteractor.swift; sourceTree = "<group>"; };
+		07FF5D3C232534ED004F7CB1 /* ItemListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCoordinator.swift; sourceTree = "<group>"; };
+		07FF5D3F2325375D004F7CB1 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		07FF5D4623253A9F004F7CB1 /* Any+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Any+Utilities.swift"; sourceTree = "<group>"; };
+		07FF5D4923253BB8004F7CB1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		07FF5D4C23254389004F7CB1 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		07FF5D4E23254CC7004F7CB1 /* Date+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utilities.swift"; sourceTree = "<group>"; };
+		07FF5D5023254FDB004F7CB1 /* String+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
+		07FF5D5223255792004F7CB1 /* Array+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utilities.swift"; sourceTree = "<group>"; };
+		07FF5D5623255A8D004F7CB1 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		07FF5D5823255AC7004F7CB1 /* ItemDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailInteractor.swift; sourceTree = "<group>"; };
+		07FF5D5A23255AD0004F7CB1 /* ItemDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +123,10 @@
 		07FF5D0223252EC2004F7CB1 /* GetirToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				07FF5D4823253BAB004F7CB1 /* DataManager */,
+				07FF5D36232534A1004F7CB1 /* Scenes */,
 				07FF5D0323252EC2004F7CB1 /* AppDelegate.swift */,
-				07FF5D0823252EC2004F7CB1 /* MasterViewController.swift */,
-				07FF5D0A23252EC2004F7CB1 /* DetailViewController.swift */,
+				07FF5D4323253A3D004F7CB1 /* Extensions */,
 				07FF5D0C23252EC2004F7CB1 /* Main.storyboard */,
 				07FF5D0F23252EC4004F7CB1 /* Assets.xcassets */,
 				07FF5D1123252EC4004F7CB1 /* LaunchScreen.storyboard */,
@@ -129,6 +152,72 @@
 				07FF5D2A23252EC4004F7CB1 /* Info.plist */,
 			);
 			path = GetirToDoAppUITests;
+			sourceTree = "<group>";
+		};
+		07FF5D36232534A1004F7CB1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				07FF5D5523255A68004F7CB1 /* Detail */,
+				07FF5D3E23253751004F7CB1 /* Base */,
+				07FF5D37232534AA004F7CB1 /* Listing */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		07FF5D37232534AA004F7CB1 /* Listing */ = {
+			isa = PBXGroup;
+			children = (
+				07FF5D4B23254375004F7CB1 /* ViewModel */,
+				07FF5D38232534CC004F7CB1 /* ItemListViewController.swift */,
+				07FF5D3A232534E0004F7CB1 /* ItemListInteractor.swift */,
+				07FF5D3C232534ED004F7CB1 /* ItemListCoordinator.swift */,
+			);
+			path = Listing;
+			sourceTree = "<group>";
+		};
+		07FF5D3E23253751004F7CB1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				07FF5D3F2325375D004F7CB1 /* BaseInteractor.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		07FF5D4323253A3D004F7CB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07FF5D4623253A9F004F7CB1 /* Any+Utilities.swift */,
+				07FF5D4E23254CC7004F7CB1 /* Date+Utilities.swift */,
+				07FF5D5023254FDB004F7CB1 /* String+Utilities.swift */,
+				07FF5D5223255792004F7CB1 /* Array+Utilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		07FF5D4823253BAB004F7CB1 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				07FF5D4923253BB8004F7CB1 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		07FF5D4B23254375004F7CB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07FF5D4C23254389004F7CB1 /* ItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07FF5D5523255A68004F7CB1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				07FF5D5623255A8D004F7CB1 /* ItemDetailViewController.swift */,
+				07FF5D5823255AC7004F7CB1 /* ItemDetailInteractor.swift */,
+				07FF5D5A23255AD0004F7CB1 /* ItemDetailCoordinator.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +352,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FF5D0423252EC2004F7CB1 /* AppDelegate.swift in Sources */,
+				07FF5D4A23253BB8004F7CB1 /* DataManager.swift in Sources */,
+				07FF5D5323255792004F7CB1 /* Array+Utilities.swift in Sources */,
+				07FF5D5B23255AD0004F7CB1 /* ItemDetailCoordinator.swift in Sources */,
 				07FF5D0723252EC2004F7CB1 /* GetirToDoApp.xcdatamodeld in Sources */,
-				07FF5D0923252EC2004F7CB1 /* MasterViewController.swift in Sources */,
-				07FF5D0B23252EC2004F7CB1 /* DetailViewController.swift in Sources */,
+				07FF5D3B232534E0004F7CB1 /* ItemListInteractor.swift in Sources */,
+				07FF5D4F23254CC7004F7CB1 /* Date+Utilities.swift in Sources */,
+				07FF5D5123254FDB004F7CB1 /* String+Utilities.swift in Sources */,
+				07FF5D3D232534ED004F7CB1 /* ItemListCoordinator.swift in Sources */,
+				07FF5D4D23254389004F7CB1 /* ItemViewModel.swift in Sources */,
+				07FF5D4723253A9F004F7CB1 /* Any+Utilities.swift in Sources */,
+				07FF5D5723255A8D004F7CB1 /* ItemDetailViewController.swift in Sources */,
+				07FF5D5923255AC7004F7CB1 /* ItemDetailInteractor.swift in Sources */,
+				07FF5D39232534CC004F7CB1 /* ItemListViewController.swift in Sources */,
+				07FF5D402325375D004F7CB1 /* BaseInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
