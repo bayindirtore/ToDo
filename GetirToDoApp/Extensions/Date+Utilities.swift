@@ -13,7 +13,7 @@ public extension Date {
   static func currentDateString() -> String {
     let date = Date()
     let formatter = DateFormatter()
-    formatter.dateFormat = "dd-MM-yyyy HH:mm:ss"
+    formatter.dateFormat = "dd-MM-yyyy"
     return formatter.string(from: date)
   }
 }

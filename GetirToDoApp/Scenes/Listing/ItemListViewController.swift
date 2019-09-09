@@ -64,8 +64,7 @@ public extension ItemListViewController {
 extension ItemListViewController: UITableViewDataSource {
 
   public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-
-    let itemCell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+    let itemCell = UITableViewCell(style: UITableViewCell.CellStyle.value1, reuseIdentifier: cellIdentifier)
     let item = items[indexPath.row]
 
     itemCell.textLabel?.text = item.title

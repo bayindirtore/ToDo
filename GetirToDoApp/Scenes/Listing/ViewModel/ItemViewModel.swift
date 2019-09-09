@@ -20,9 +20,10 @@ public struct ItemViewModel {
     let entityId = entity.objectID.uriRepresentation().absoluteString
     let entityText = entity.value(forKeyPath: "text") as?  String
     let entityTitle = entity.value(forKey: "title") as? String
-
-    dateString = entity.value(forKey: "date")  as! String
+    
     edited = entity.value(forKey: "edited") as! Bool
+    let editedText = edited ? "Last Edited:" : "Created:"
+    dateString = editedText + (entity.value(forKey: "date")  as! String)
     text = entityText
     title = entityTitle
     id = entityId
